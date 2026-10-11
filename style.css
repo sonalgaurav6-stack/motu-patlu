@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: chocolate;
+    display: grid;
+    place-content: center;
+}
+
+.main {
+    background-color: white;
+    /* height: 600px; */
+    /* width: 1000px; */
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+#pic {
+    max-height: 400px;
+    max-width: 70vw;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: larger;
+}
+#startBtn {
+    background-color: greenyellow;
+}
+#stopBtn {
+    background-color: crimson;
+    color: white;
+}
